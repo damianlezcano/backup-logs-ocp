@@ -21,3 +21,7 @@ Ejemplo
 > txt="8335536";cat < $(grep -Ril $txt | sort -r | head -1) | grep -n $txt
 
 * Si se obtiene el siguiente error -> "-bash: $(grep -Ril $txt | sort -r | head -1): ambiguous redirect" significa que no existen resultados
+
+# Ejecutar
+
+> nohup ./run.sh &
